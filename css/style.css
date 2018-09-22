@@ -1,0 +1,358 @@
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration: none;
+	font-family: AdihausDIN,Helvetica,Arial,sans-serif;
+}
+/*---------------------Start-style------------------*
+
+/*-----header--------*/
+body {
+	padding-top: 139px;
+}
+header {
+	background-color: #222;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+}
+.container {
+	max-width:1220px;
+	margin: 0 auto;
+	width: 100%;
+	padding: 0 16px;
+}
+.top-links {
+	float: right;
+}
+.top-links li {
+    display: inline-block;
+}
+.top-links li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 5px;
+    display: block;
+    font-size: 11px;
+    font-weight: 400;
+}
+.logo {
+	float: left;
+    width: 45%;
+}
+.header-menu li {
+    border-right: 1px solid hsla(0,0%,100%,.25);
+    padding: 0 7px;
+}
+.logo > a {
+	float: left;
+    width: 70px;
+    margin-top: -15px;
+    padding-left: 16px;
+}
+.header-bottom {
+	display: inline-block;
+    width: 100%;
+}
+.header-menu {
+	display: inline-flex;
+}
+.header-menu {
+    display: inline-flex;
+    margin-top: 40px;
+    margin-left: 22px;
+}
+.right-part-content {
+	float: right;
+}
+.header-bottom-offer {
+	background-color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #222;
+    padding: 10px 0;
+}
+.header-menu {
+    display: inline-flex;
+    padding-bottom: 12px;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+.header-menu li a {
+	color: #fff;
+    padding: 10px 1px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+input[type="text"] {
+    height: 34px;
+    padding: 0 30px;
+    font-size: 15px;
+    width: 121px;
+}
+.right-part-content button {
+    position: absolute;
+    left: 6px;
+    background: none;
+    border: none;
+    top: 10px;
+    font-size: 17px;
+}
+.right-part-content {
+	position: relative;
+}
+.input-search a {
+	color: #fff;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.header-bottom-offer p {
+    color: #a9a9a9;
+    font-size: 14px;
+}
+.sign-up-section {
+    background-color: #000;
+    padding: 40px 20px 20px;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+        box-sizing: border-box;
+}
+.sign-up-section h2 {
+    float: left;
+    font-size: 30px;
+    text-align: left;
+}
+footer .container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+.form-sign-up {
+	float: right;
+    width: 40%;
+    position: relative;
+}
+.form-sign-up input {
+    font-weight: 400;
+    font-style: normal;
+    min-height: 50px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+    border: 1.01565px solid #98989a;
+    padding: 0 18px;
+    width: 100%;
+    margin: 0;
+}
+.form-sign-up button {
+    position: absolute;
+    border: none;
+    right: -40px;
+    top: 0;
+    background-color: #0071ae;
+    height: 52px;
+    width: 60px;
+    font-size: 20px;
+    color: #fff;
+}
+.footer-links {
+    display: inline-block;
+    width: 20%;
+    padding: 80px 0;
+    float: left;
+}
+.footer-bottom {
+	background-color: #363738;
+    padding: 9px 0;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    font-size: 13px;
+}
+.footer-bottom p {
+	    float: left;
+}
+.footer-right {
+	float: right;
+}
+.footer-right-bottom li {
+    display: inline-block;
+}
+.footer-right-bottom li  a{
+	 padding: 0 10px;
+    color: #fff;
+}
+.footer-links h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 23px;
+    color: #000;
+}
+.footer-link-item li a {
+    display: block;
+    line-height: 23px;
+    color: #000;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+/*-----header-end--------*/
+/*rohit*/
+.container{
+    max-width: 1170px;
+}
+.width-2{
+    width: 30%;
+    font-size: 20px;
+    float: left;
+}
+.width-10 {
+    width: 70%;
+    float: left;
+    margin-top: 12px;
+}
+.refine {
+    padding: 20px;
+    border: 1px solid #eee;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.gender  {
+    padding: 20px;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    font-size: 18px;
+}
+.gender div {
+    margin: 18px 0;
+    margin-bottom: 0;
+}
+.gender div span:last-of-type {
+    float: right;
+    text-decoration: underline;
+}
+.gender {
+    padding: 20px;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.Category , .size , .price {
+    padding: 20px;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    font-size: 18px;
+}
+.Category div span {
+    display: block;
+    margin: 13px 0;
+}
+.Category input[type="checkbox"] {
+    margin-right: 12px;
+}
+.franchise {
+    border-bottom: 1px solid #eee;
+}
+.shhoe-box {
+    width: 25%;
+    float: left;
+}
+.shoe-img img {
+    width: 100%;
+}
+.shhoe-box .type {
+    color: #ddd;
+    margin: 10px 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.name {
+    margin: 10px 5px;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 22px;
+}
+.price-sec {
+    margin: 10px 5px;
+    font-size: 14px;
+}
+.shhoe-box {
+    width: 23%;
+    float: left;
+    position: relative;
+    margin: 1%;
+}
+.gender span a , .Category span a , .size span a , .price span a {
+    position: absolute;
+    right: 20px;
+    top: 21px;
+    color: #000;
+}
+.Category, .size , .price{
+    position: relative;
+}
+.Category.franchise label {
+    font-size: 20px;
+}
+.Category small, .size small, .price small {
+    font-size: 14px;
+    margin-left: 10px;
+    color: #777;
+}
+.ratings {
+    font-size: 10px;
+    padding-left: 5px;
+    color: #98989a;
+}
+a.image-2 {
+    display: none;
+}
+.shhoe-box:hover a.image-2{
+    display: block;
+}
+.shhoe-box:hover a.image-1{
+    display: none;
+}
+a.heart {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #000;
+    font-size: 16px;
+}
+.Category a, .size a, .price a {
+    color: #333;
+    font-size: 20px;
+}
+.banner {
+    background: url(../images/home-banner.jpg);
+    min-height: 500px;
+    background-size: cover;
+}
+.banner-content {
+    padding: 100px;
+    max-width: 500px;
+}
+.banner-content h2 {
+    font-size: 31px;
+    font-weight: 800;
+    line-height: 35px;
+}
+.banner-content p {
+    margin: 25px 0;
+    font-size: 18px;
+}
+.banner-content a {
+    background: #000;
+    padding: 20px 30px;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+}
